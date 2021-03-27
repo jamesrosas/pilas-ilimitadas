@@ -14,15 +14,15 @@ html{
 }
 
 header {
-    width: 100%;
+    width: 98%;
     height: 100px;
     background: var(--colorBrand);
-    border-radius: 0 0 20% 20%;
+    border-radius: 10px;
     border-bottom: 3px solid var(--secondColorBrand);
     display: grid;
     grid-template: 100px / 30% 70%;
     grid-template-areas: "title menu";
-    margin-bottom: 30px;
+    margin: 10px auto;
 }
 
 .header-menu li {
@@ -57,10 +57,14 @@ section {
     margin: 20px auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
-    background-image: linear-gradient(90deg,black 30%, transparent 80%);
+    background-image: linear-gradient(90deg,black 30%, transparent 80%), url('./imgs/pilas.jpg');
+    background-position: center;
+    background-size: cover;
     border-radius: 8px;
     color: white;
-    text-decoration: none;
+    transition: 350ms;
+    will-change: transform;
+    cursor: pointer;
 }
 
 section li {
@@ -75,6 +79,17 @@ section li {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 p {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,3 +100,4 @@ article {
     width: 90%;
     margin: 0 auto;
 }
+
