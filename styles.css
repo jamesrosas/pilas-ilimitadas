@@ -51,6 +51,15 @@ h1 {
     margin-left: 35px;
 }
 
+button {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    background: darkmagenta;
+    color: white;
+    margin: 5px auto;
+}
+
 section {
     width: 90%;
     background: yellow;
